@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "running server on port 9000"
-while true; do ncat -l -p 9000 < index.html; done
+while true; do ncat -l -p 9000 < success.response ; echo ; done
